@@ -1,0 +1,303 @@
+
+:root{
+
+  --bg:#023b6d;
+}
+.const{
+  background-color: var(--bg);
+}
+  .nav{
+      background-color: var(--bg);
+      color: white;
+  }
+
+  .picture{
+
+    filter: grayscale(100%);
+    transition: all 2s;
+  }
+
+  .picture:hover{
+    filter:grayscale(0);
+    scale: 2.1;
+  }
+
+  .picture1{
+
+    background-color: #F3F5FA;
+  }
+
+  .main-line{
+
+    width: 15%;
+    height: 1.5px;
+    background-color: gray;
+  }
+
+  .line{
+
+    width: 60%;
+    height: 4px;
+    background-color: #47B2E4 ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+  }
+
+  .image{
+
+    background-image: url(assets/img/why-us.png);
+  }
+
+  
+  
+
+
+
+
+
+  
+
+  .image{
+
+    animation: img 3s linear infinite alternate;
+  }
+
+  @keyframes img {
+
+    from{
+
+      transform: translateY(0) ;
+
+
+    }
+
+    to{
+
+      transform: translateY(-75px) ;
+
+
+    }
+  }
+
+  .image:hover{
+
+    animation-play-state: paused;
+  }
+
+  @media only screen and (max-width: 989px){
+
+.bt{
+
+justify-content:center;
+}
+
+.text-section{
+
+flex-direction: column-reverse;
+}
+
+.direction{
+
+display: flex;
+flex-direction: column-reverse;
+}
+
+.image{
+
+animation-play-state: paused;
+width: 50%;
+}
+}
+
+.line-div{
+
+    display: flex;
+   flex-direction: row;
+    
+
+
+}
+
+
+
+.line11{
+
+    width: 430px;
+    height: 8px;
+    
+    background-color: #4668A2;
+  
+    
+}
+.line22{
+
+    width: 430px;
+    height: 8px;
+   
+    background-color: #E8EDF5;
+  
+    
+}
+.line33{
+
+    width: 430px;
+   
+    height: 10;
+    background-color: #E8EDF5;
+  
+    
+}
+.line44{
+
+    width: 430px;
+   
+    height: 10px;
+    background-color: #E8EDF5;
+  
+    
+}
+.l11{
+
+    width: 380px;
+   
+    height: 10px;
+    background-color:#4668A2 ;
+  
+    
+}
+.l22{
+
+    width: 350px;
+    
+    height: 10px;
+    background-color:#4668A2 ;
+  
+    
+}
+.l33{
+
+    width: 300px;
+    
+    height: 10px;
+    background-color:#4668A2 ;
+  
+    
+}
+
+.t11 {
+
+    display:flex;
+    font-size: 10px;
+    justify-content:space-between;
+    color: #4668A2;
+}
+.t22 {
+
+    display:flex;
+    font-size: 10px;
+    justify-content:space-between;
+    color: #4668A2;
+    margin-top:10px;
+}
+.t33{
+
+    display:flex;
+    font-size: 10px;
+    justify-content:space-between;
+    color: #4668A2;
+    margin-top:10px;
+}
+.t44{
+
+    display:flex;
+    font-size: 10px;
+    justify-content:space-between;
+    color: #4668A2;
+    margin-top:10px;
+}
+
+
+.service11{
+
+    background-color:#F3F5FA;
+}
+
+.service{
+
+    margin: auto;
+}
+
+.service h1{
+
+    color: #4668A2;
+    
+
+}
+.service-line{
+
+    width: 100px;
+    height: 2px;
+    background-color: white;
+}
+
+.small{
+
+    width: 40px;
+    height: 4px;
+    margin: auto;
+    background-color: #4668A2;
+    border-radius: 5px;;
+
+}
+
+.box{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 2rem;
+    
+}
+
+
+.box1{
+
+    width: 190px;
+    
+    padding:15px;
+    background: white;
+    margin-bottom: 30px;
+    box-shadow:hwb(from color h w b);
+    transition: all 0.2s linear;
+    
+    
+   
+
+
+}
+
+.box1:hover{
+
+  transform: translateY(-10px);
+  color: blue;
+}
+
+.box1:hover p{
+  color: black;
+}
+
+.box1 h5 {
+    color: #4668A2;
+   padding:  10px;
+}
+
+.icon{
+  padding:  10px;
+  color:#4668A2;
+}
+
+.clr{
+background-color: #2E4365;
+
+}
