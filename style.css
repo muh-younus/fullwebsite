@@ -234,6 +234,13 @@ width: 50%;
     
 
 }
+
+.text22{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .service-line{
 
     width: 100px;
@@ -298,6 +305,57 @@ width: 50%;
 }
 
 .clr{
-background-color: #2E4365;
+
+  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtYVlGX9p0TGr4u2OTZIv32ORKa448soiLEfuLhfhRvxLFREQm) fixed center center;
+  background-size:cover;
+}
+
+.main-body1{
+
+  background-color:#F3F5FA
+  
+}
+
+.card{
+
+  line-height: 17px;
+}
+
+.text{
+
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sm{
+
+  width: 100px;
+  height: 1px;
+  background-color: #D5D5D7;
+}
+
+.inner{
+
+  width: 35px;
+  height: 3px;
+  background-color: #47B2E4;
+  margin: auto;
+  border-radius:4px;
+}
+
+.text p{
+
+  font-size: 14px;
+}
+
+.div1{
+  
+
+  display: flex;
+  justify-content: space-between;
+  gap:10px;
+ 
 
 }
