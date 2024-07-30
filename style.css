@@ -316,10 +316,7 @@ width: 50%;
   
 }
 
-.card{
 
-  line-height: 17px;
-}
 
 .text{
 
@@ -358,4 +355,11 @@ width: 50%;
   gap:10px;
  
 
+}
+
+.card11{
+
+  line-height: 17px;
+  background-color: #F3F5FA;
+  font-size: 12px;
 }
