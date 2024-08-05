@@ -359,7 +359,32 @@ width: 50%;
 
 .card11{
 
-  line-height: 17px;
+ 
   background-color: #F3F5FA;
   font-size: 12px;
+  display: flex;
+  
+}
+  
+
+.card{
+
+  transition: all 0.1s linear;
+  height: 200px;
+   display: flex;
+  flex-direction: row  ;
+   justify-content: space-around;
+   border: none;
+}
+
+.card:hover{
+
+  transform: translateY(-10px);
+}
+
+
+.main-price{
+
+
+  background-color: #FFFFFF;
 }
