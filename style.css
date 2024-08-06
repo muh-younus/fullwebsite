@@ -363,18 +363,20 @@ width: 50%;
   background-color: #F3F5FA;
   font-size: 12px;
   display: flex;
+  transition: all 0.1s linear;
   
 }
   
 
 .card{
 
-  transition: all 0.1s linear;
+  
   height: 200px;
    display: flex;
   flex-direction: row  ;
    justify-content: space-around;
    border: none;
+   transition: all 0.1s linear;
 }
 
 .card:hover{
@@ -387,4 +389,78 @@ width: 50%;
 
 
   background-color: #FFFFFF;
+}
+
+.text-section{
+
+  margin: auto;
+  text-align: center;
+  padding : 20px;
+
+}
+
+.lne{
+
+  margin: 10px;
+}
+
+.text-line{
+
+
+  width: 100px;
+  height: 2px;
+  background-color: #F3F5FA;
+  text-align: center;
+  margin: auto;
+  
+}
+
+.text-line1{
+
+  width: 40px;
+  height: 3px;
+  background-color:#47B2E4;
+  margin: auto;
+  border-radius: 3px;
+  position: absolut;
+  top: 50%;
+  left: 50%;
+  transform: translate(-10%, -25%);
+}
+
+.text-section h1{
+
+  text-transform:uppercase;
+  font-weight: bold;
+  margin: 10px;
+  font-size: 27px;
+  color: #37517E;
+}
+
+.text-section p{
+
+  margin: 20px;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+}
+
+ul{
+
+  list-style: none;
+  text-decoration: none;
+}
+
+.container{
+
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.sect{
+
+  
+  padding: 20px;
+  box-shadow: 3px 3px 8px 0.01px #888888;
 }
