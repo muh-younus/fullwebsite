@@ -482,6 +482,23 @@ ul{
   left: 50%;
   border-radius: 3px 3px 0px 0px;
  transform: translate(-50% , -50%);
-  background-color: blue;
+  background-color: #47B2E4;
   position: absolute;
+}
+
+.power {
+
+  color: #37517E;
+}
+
+.para{
+
+  color: #37517E;
+}
+
+.frequency{
+
+  background-color:#F3F5FA;
+
+
 }
